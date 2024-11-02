@@ -43,7 +43,11 @@ async fn main() {
         || player.rect.intersect(obs5.rect).is_some() 
         || player.rect.intersect(obs6.rect).is_some() 
         || player.rect.intersect(obs7.rect).is_some() 
-        || player.rect.intersect(obs8.rect).is_some(){ 
+        || player.rect.intersect(obs8.rect).is_some() 
+        || player.rect.intersect(obs9.rect).is_some() 
+        || player.rect.intersect(obs10.rect).is_some() 
+        || player.rect.intersect(obs11.rect).is_some() 
+        || player.rect.intersect(obs12.rect).is_some(){ 
             player.xvel = player.xvel * -2.5;
             player.yvel = player.yvel * -2.5;
         } else {
